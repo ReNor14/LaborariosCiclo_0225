@@ -1,0 +1,14 @@
+algoritmo NumeroMayores
+Inicio
+leer Num1, Num2, Num3
+Escribir "Escribe 3 números:"
+leer Num1, Num2, Num3
+si (Num1 >  Num2 y Num3) Entonces
+	Escribir "El numero mayor es: " Num1
+SiNo 
+    Si Num2 > Num1 y Num3 Entonces
+	Escribir "EL numero mayor es: " Num2
+SiNo
+	Escribir "EL numero mayor es: " Num3
+FinSi
+Termina
